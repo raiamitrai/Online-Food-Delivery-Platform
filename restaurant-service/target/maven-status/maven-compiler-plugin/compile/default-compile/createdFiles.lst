@@ -1,0 +1,12 @@
+com\quickbite\restaurant\repository\RestaurantRepository.class
+com\quickbite\restaurant\entity\Restaurant$RestaurantBuilder.class
+com\quickbite\restaurant\dto\RestaurantResponse$RestaurantResponseBuilder.class
+com\quickbite\restaurant\entity\RestaurantStatus.class
+com\quickbite\restaurant\entity\Restaurant.class
+com\quickbite\restaurant\service\RestaurantServiceImpl.class
+com\quickbite\restaurant\dto\RestaurantRequest$RestaurantRequestBuilder.class
+com\quickbite\restaurant\dto\RestaurantResponse.class
+com\quickbite\restaurant\dto\RestaurantRequest.class
+com\quickbite\restaurant\RestaurantServiceApplication.class
+com\quickbite\restaurant\controller\RestaurantController.class
+com\quickbite\restaurant\service\RestaurantService.class
