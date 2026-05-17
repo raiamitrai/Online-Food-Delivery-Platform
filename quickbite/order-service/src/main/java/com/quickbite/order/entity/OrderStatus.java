@@ -1,0 +1,11 @@
+package com.quickbite.order.entity;
+
+public enum OrderStatus {
+    PLACED,
+    CONFIRMED,
+    PREPARING,
+    READY_FOR_PICKUP,
+    PICKED_UP,
+    DELIVERED,
+    CANCELLED
+}

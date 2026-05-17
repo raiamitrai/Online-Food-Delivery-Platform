@@ -1,0 +1,38 @@
+# Heavy Local Toolchains (Specific to your machine)
+apache-maven-3.9.6/
+jdk17/
+
+# Node / Frontend Build Tools
+**/node_modules/
+**/dist/
+.eslintcache
+
+# Java / Maven Builds
+**/target/
+*.class
+.mtj.tmp/
+*.jar
+*.war
+*.ear
+*.nar
+
+# IDE and Project Settings
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+.factorypath
+.recommenders/
+
+# Log Files
+*.log
+gateway.log
+
+# System files
+Thumbs.db
+ehthumbs.db
+Desktop.ini

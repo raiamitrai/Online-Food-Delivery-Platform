@@ -1,0 +1,9 @@
+CREATE DATABASE IF NOT EXISTS quickbite_auth;
+CREATE DATABASE IF NOT EXISTS quickbite_restaurant;
+CREATE DATABASE IF NOT EXISTS quickbite_menu;
+CREATE DATABASE IF NOT EXISTS quickbite_cart;
+CREATE DATABASE IF NOT EXISTS quickbite_order;
+CREATE DATABASE IF NOT EXISTS quickbite_payment;
+CREATE DATABASE IF NOT EXISTS quickbite_delivery;
+CREATE DATABASE IF NOT EXISTS quickbite_review;
+CREATE DATABASE IF NOT EXISTS quickbite_notification;

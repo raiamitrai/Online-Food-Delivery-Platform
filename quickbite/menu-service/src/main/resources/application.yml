@@ -1,0 +1,30 @@
+server:
+  forward-headers-strategy: framework
+  port: 8083
+
+spring:
+  application:
+    name: menu-service
+  datasource:
+    url: jdbc:mysql://localhost:3306/quickbite_menu?createDatabaseIfNotExist=true&useSSL=false
+    username: root
+    password: 
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  data:
+    redis:
+      host: ${SPRING_REDIS_HOST:localhost}
+      port: ${SPRING_REDIS_PORT:6379}
+  cache:
+    type: redis
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true
+
